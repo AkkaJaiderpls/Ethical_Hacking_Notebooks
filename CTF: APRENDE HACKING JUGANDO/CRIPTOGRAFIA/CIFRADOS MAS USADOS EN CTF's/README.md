@@ -64,7 +64,11 @@ El alfabeto Braille esta representado por puntos de 2x3 e incluye letras, numero
 
 <br>
 
-p
+También conocido como alfabeto morse o clave morse es un sistema de representación de letras y números mediante señales emitidas de forma intermitente. 
+
+Consiste en cambiar las letras del alfabeto con puntos y lineas, de modo que formamos un mensaje codificado que seria ilegible para cualquier persona sin ser traducido de vuelta.
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhttp2.mlstatic.com%2Fpulsera-clave-codigo-morse-varios-mensajes-D_NQ_NP_914325-MLM25432920040_032017-F.jpg&f=1&nofb=1&ipt=2d16a574ca5c314cb785de691eb6e067bb2bb0a5ee33ad5676ae34d08a5233bf&ipo=images)  
 
 <br>
 
@@ -72,7 +76,11 @@ p
 
 <br>
 
-p
+Es el estandar de codificion de caracteres que asigna un numero a las letras, numeros ademas de simbolos que son muy utilizados en la comunicacion electronica.
+
+Se puede utilizar ASCII para cambiar las letras de una palabra por una representacion numerica.
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fspreadsheeto.com%2Fwp-content%2Fuploads%2F2017%2F09%2Fascii-codes-table.png&f=1&nofb=1&ipt=3df80880491bcd8c4a69d7258584acbcd455af2458f0ac2f235402b17493b173&ipo=images)  
 
 <br>
 
@@ -80,7 +88,11 @@ p
 
 <br>
 
-p
+Es el sistema de codificación usado para la representación de textos, o procesadores de instrucciones de computadora, utilizando el sistema binario (sistema numérico de dos dígitos, o bit: el "0" y el "1")
+
+Con base en el codigo ASCII se pueden convertir los numeros decimales a numeros binarios, para de esta manera volver el mansaje aun mas confuso.
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsteemitimages.com%2F0x0%2Fhttps%3A%2F%2Fstatic.vix.com%2Fes%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge%2Fpublic%2Fbtg%2Fcodigo_binario_2.jpg%3Fitok%3DaBfifK79&f=1&nofb=1&ipt=d23a70bedd89a96d46b24d31c219be70b9c08b1f1e937f2b3c9b9ce610036336&ipo=images)  
 
 <br>
 
@@ -88,19 +100,27 @@ p
 
 <br>
 
-p
+Es el sistema de numeración posicional que tiene como base el 16. Su uso actual está muy vinculado a la informática y ciencias de la computación    
+  
+De la misma manera que se puede convertir los numeros decimales a binarios, tambien se pueden convertir a hexadecimales.
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.w0J-aLKm1sAFiFm8Xhnt8wHaDt%26pid%3DApi&f=1&ipt=be151df03280890d7d7b4b9733bdc7f042e3b704ee7b5bafa9915f41356881ad&ipo=images)  
 
 <br>
 
-## Codigo Base ##
+## Codigo Base 64 ##
 
 <br>
 
-p
+Es un sistema de numeración posicional que usa un 64 como base. Es la mayor potencia que puede ser representada usando únicamente los caracteres imprimibles de ASCII. Existen variantes de este cifrado como ser Base32, Bas85, etc.  
+  
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopentechtips.com%2Fwp-content%2Fuploads%2F2020%2F05%2Fbase64_4.jpg&f=1&nofb=1&ipt=ef1bc9da84e6dfb5f9f333075a2cbae8e5bd3d1e05e55208e389a2983ea3bab7&ipo=images)
+
+
 
 <br>
 
-## HASH MD ##
+## HASH MD5 ##
 
 <br>
 
