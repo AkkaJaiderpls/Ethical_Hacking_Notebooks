@@ -1,4 +1,4 @@
-# Cifrados y Hashes mas comunes en un CTF
+# Cifrados y Hashes mas usados CTF's
 
 ## Cifrado A1Z26 ##
 
