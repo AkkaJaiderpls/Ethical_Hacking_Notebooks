@@ -116,15 +116,17 @@ Es un sistema de numeración posicional que usa un 64 como base. Es la mayor pot
   
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopentechtips.com%2Fwp-content%2Fuploads%2F2020%2F05%2Fbase64_4.jpg&f=1&nofb=1&ipt=ef1bc9da84e6dfb5f9f333075a2cbae8e5bd3d1e05e55208e389a2983ea3bab7&ipo=images)
 
-
-
 <br>
 
 ## HASH MD5 ##
 
 <br>
 
-p
+Es un algoritmo de reducción criptográfico de 128 bits ampliamente usado. Uno de sus usos es el de comprobar que algún archivo no haya sido modificado. 
+
+Al ser demasiado complejo no se puede decodificar, lo que podemos hacer para obtenerlo es hacer un lookup que consiste en calcular el hash de una extensa lista de palabras comunes y compararlas con el hash que tenemos, para de esa forma saber a que palabra corresponde.
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.ttgtmedia.com%2Frms%2FonlineImages%2Fsecurity-md5_hashing_mobile.jpg&f=1&nofb=1&ipt=ff7bd0b4645e3b7bdb10d3b32209cf83a20652cdab66b56ab4f793dd95b7480a&ipo=images)
 
 <br>
 
@@ -132,6 +134,17 @@ p
 
 <br>
 
-p
+Son una familia de funciones de hash criptográficas publicadas por el Instituto Nacional de Estándares y Tecnología (NIST) como un estándar federal de procesamiento de información (FIPS) de EE. UU; que incluyen:
+
+* SHA-0
+* SHA-1
+* SHA-2
+* SHA-3
+
+Es otro tipo de hash parecido al MD5, es unico e irrepetible, por lo que solo se puede realizar un reverse a traves de un lookup a traves del hash, hay herramientas en internet que nos permiten identificar con que tipo de algoritmo se realizo un HASH.
+
+Actualmente se usa uno mas seguro que es conocido como SHA256
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.howtogeek.com%2Fwp-content%2Fuploads%2F2017%2F02%2Fimg_5894fa0a81d55.png.pagespeed.ce.ebhvPk-Dxe.png&f=1&nofb=1&ipt=88913631ac78154297db64225c9a5fcc69d8e58a5a195264a7685301c24182c9&ipo=images)
 
 <br>
