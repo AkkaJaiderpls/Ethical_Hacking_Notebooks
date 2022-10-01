@@ -32,6 +32,8 @@ Entre ellos tenemos:
 
 En la mayoria de los casos se lanzan convocatorias por RRSS, basta con inscribirse y se nos facilitara la respectica documentacion y enlaces para participar.
 
+<br>
+
 ## ¿Donde puedo practicar?
 
 <br>
