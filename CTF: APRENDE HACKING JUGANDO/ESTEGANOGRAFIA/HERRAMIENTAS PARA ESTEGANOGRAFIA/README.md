@@ -69,6 +69,18 @@ Para instalar esta herramienta se requiere instalar Java previamente.
 
 <br>
 
+## Encontrar mensajes ocultos en una imagen con Steghide
+
+<br>
+
+Steghide nos va permitir encubrir registros confidenciales dentro de una imagen o sonido con una frase de contraseña.
+
+https://github.com/StefanoDeVuono/steghide.git
+
+Podemos encontrar esta herramienta en su repositorio de GitHub.
+
+<br>
+
 ## Encontrar mensajes ocultos en Audios con Audacity
 
 <br>
