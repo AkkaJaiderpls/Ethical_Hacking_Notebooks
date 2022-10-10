@@ -1,4 +1,4 @@
-# Tips para resoluciones de criptografia
+# TIPS PARA RESOLUCIONES DE CRIPTOGRAFIA
 
 <br>
 

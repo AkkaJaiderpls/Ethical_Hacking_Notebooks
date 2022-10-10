@@ -1,4 +1,4 @@
-# ¿Que es la Esteganografia?
+# ¿QUE ES LA ESTEGANOGRAFIA?
 
 <br>
 
@@ -12,7 +12,7 @@ Actualmente en el area de la seguridad informatica ha suscitado mucho interes en
 
 <br>
 
-## Relacion con la Criptografia
+## RELACION CON LA CRIPTOGRAFIA
 
 <br>
 
@@ -22,7 +22,7 @@ En la criptografia el mensaje es ilegible para cualquiera que no tenga el metodo
 
 <br>
 
-## Escenarios de Uso
+## ESCENARIOS DE USO
 
 <br>
 

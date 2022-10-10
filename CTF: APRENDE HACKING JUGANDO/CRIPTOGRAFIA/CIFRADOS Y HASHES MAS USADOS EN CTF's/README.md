@@ -1,6 +1,6 @@
-# Cifrados y Hashes mas usados CTF's
+# CIFRADOS Y HASHES MAS USADOS CTF's
 
-## Cifrado A1Z26 ##
+## CIFRADO A1Z26 ##
 
 <br>
 
@@ -18,7 +18,7 @@ Una manera sencilla de darnos cuentas de si estamos contra este tipo de cifrados
 
 <br>
 
-## Cifrado de Cesar ##
+## CIFRADO DE CESAR ##
 
 <br>
 
@@ -30,7 +30,7 @@ Por ejemplo, con un desplazamiento de 3, la A sería sustituida por la D (situad
 
 <br>
 
-## Cifrado ROT13 ##
+## CIFRADO ROT13 ##
 
 <br>
 
@@ -40,7 +40,7 @@ ROT13 es un sencillo cifrado César utilizado para ocultar un texto sustituyendo
 
 <br>
 
-## Cifrado de Vigenere ##
+## CIFRADO DE VIGENERE ##
 
 <br>
 
@@ -50,7 +50,7 @@ Es un cifrado basado en diferentes series de caracteres o letras del cifrado Cé
 
 <br>
 
-## Cifrado de Braile ##
+## CIFRADO DE BRAILE ##
 
 <br>
 
@@ -62,7 +62,7 @@ El alfabeto Braille esta representado por puntos de 2x3 e incluye letras, numero
 
 <br>
 
-## Codigo Morse ##
+## CODIGO MORSE ##
 
 <br>
 
@@ -74,7 +74,7 @@ Consiste en cambiar las letras del alfabeto con puntos y lineas, de modo que for
 
 <br>
 
-## Codigo ASCII ##
+## CODIGO ASCII ##
 
 <br>
 
@@ -86,7 +86,7 @@ Se puede utilizar ASCII para cambiar las letras de una palabra por una represent
 
 <br>
 
-## Codigo Binario ##
+## CODIGO BINARIO ##
 
 <br>
 
@@ -98,7 +98,7 @@ Con base en el codigo ASCII se pueden convertir los numeros decimales a numeros 
 
 <br>
 
-## Codigo Hexadecimal ##
+## CODIGO HEXADECIMAL ##
 
 <br>
 
@@ -110,7 +110,7 @@ De la misma manera que se puede convertir los numeros decimales a binarios, tamb
 
 <br>
 
-## Codigo Base 64 ##
+## CODIGO BASE64 ##
 
 <br>
 

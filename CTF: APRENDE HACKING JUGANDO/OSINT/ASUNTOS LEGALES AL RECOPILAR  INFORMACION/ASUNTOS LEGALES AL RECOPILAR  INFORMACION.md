@@ -1,4 +1,4 @@
-# Asuntos legales al recopilar informacion
+# ASUNTOS LEGALES AL RECOPILAR INFORMACION
 
 <br>
 

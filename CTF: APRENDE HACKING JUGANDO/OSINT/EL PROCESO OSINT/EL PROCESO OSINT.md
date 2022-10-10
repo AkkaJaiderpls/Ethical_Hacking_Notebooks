@@ -1,5 +1,4 @@
-# El proceso OSINT
-
+# EL PROCESO OSINT
 <br>
 
 Un buen OSINT consta de una serie de fases que nos va permitir estructurar el trabajo de manera que podamos agilizar la investigacion.

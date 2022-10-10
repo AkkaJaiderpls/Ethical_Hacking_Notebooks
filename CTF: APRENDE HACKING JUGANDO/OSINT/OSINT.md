@@ -1,4 +1,4 @@
-# ¿Que es OSINT?
+# ¿QUE ES OSINT?
 
 <br>
 
@@ -8,7 +8,7 @@ Se le llama OSINT a una seriee de procesos que tienen como mision hacer uso de f
 
 <br>
 
-## Usos principales de OSINT
+## USOS PRINCIPALES DEL OSINT
 
 <br>
 

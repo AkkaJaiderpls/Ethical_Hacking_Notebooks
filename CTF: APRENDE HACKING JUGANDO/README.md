@@ -1,4 +1,4 @@
-## Introduccion a los CTF ##
+## INTRODUCCION A LOS CTF ##
 
 <br>
 
@@ -10,7 +10,7 @@ La flag o bandera es un codigo que va permitir confimrar que hemos sido capaces 
 
 <br>
 
-## Tipos de CTF's ##
+## TIPOS DE CTF's ##
 
 <br>
 
@@ -26,7 +26,7 @@ Entre ellos tenemos:
 
 <br>
 
-## ¿Como participar?
+## ¿COMO PARTICIPAR?
 
 <br>
 
@@ -34,7 +34,7 @@ En la mayoria de los casos se lanzan convocatorias por RRSS, basta con inscribir
 
 <br>
 
-## ¿Donde puedo practicar?
+## ¿DONDE PUEDO PRACTICAR?
 
 <br>
 

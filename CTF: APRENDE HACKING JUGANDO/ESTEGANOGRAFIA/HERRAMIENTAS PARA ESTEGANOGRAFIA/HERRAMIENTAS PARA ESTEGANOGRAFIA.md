@@ -1,4 +1,4 @@
-# Herramientas para Esteganografia
+# HERRAMIENTAS PARA ESTEGANOGRAFIA
 
 <br>
 
@@ -6,7 +6,7 @@ En el caso de esteganografia contamos con muchas herramientas tanto en linea com
 
 <br>
 
-## Analisis completo de una Imagen con Forensically
+## ANALISIS COMPLETO DE UNA IMAGEN CON Forensically
 
 <br>
 
@@ -16,7 +16,7 @@ La parte que mas me gusta de esta herramienta es el Error Level Analysys donde p
 
 <br>
 
-## Revisar la metadata de una imagen con Metadata2go
+## REVISAR LA METADATA DE UNA IMAGEN CON Metadata2go
 
 <br>
 
@@ -26,7 +26,7 @@ Comenzaremos dirigiendonos a la pagina		https://www.metadata2go.com/		en ella va
 
 <br>
 
-## Revisar el tipo de archivo original con CheckFileType 
+## REVISAR EL TIPO DE ARCHIVO ORIGINAL CON CheckFileType
 
 <br>
 
@@ -45,7 +45,7 @@ Si quiseramos revisar si alguna imagen contiene algun tipo de archivo adjunto po
 
 <br>
 
-## Encontrar mensajes ocultos en una imagen con OpenStego
+## ENCONTRAR MENSAJES OUCLTOS EN UNA IMAGEN CON OpenStego
 
 <br>
 
@@ -57,7 +57,7 @@ Para instalarlo basta con ir a su repositorio y copiarlo		https://github.com/syv
 
 <br>
 
-## Encontrar mensajes ocultos en una imagen con Stegsolve
+## ENCONTRAR MENSAJES OCUTOS EN UNA IMAGEN CON Stegsolve
 
 <br>
 
@@ -69,7 +69,7 @@ Para instalar esta herramienta se requiere instalar Java previamente.
 
 <br>
 
-## Encontrar mensajes ocultos en una imagen con Steghide
+## ENCONTRAR MENSAJES OCUTOS EN UNA IMAGEN CON Steghide
 
 <br>
 
@@ -81,7 +81,7 @@ Podemos encontrar esta herramienta en su repositorio de GitHub.
 
 <br>
 
-## Encontrar mensajes ocultos en Audios con Audacity
+## ENCONTRAR MENSAJES OCULTOS EN AUDIOS CON Audacity
 
 <br>
 
@@ -91,7 +91,7 @@ Para descargarlo basta con ir a su pagina oficial y seguir los pasos		https://ww
 
 <br>
 
-## Comprobar el tamaño de los archivos 
+## COMPROBAR EL TAMAÑO DE LOS ARCHIVOS
 
 <br>
 

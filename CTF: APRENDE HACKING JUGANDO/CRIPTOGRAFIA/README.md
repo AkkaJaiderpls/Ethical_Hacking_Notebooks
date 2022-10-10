@@ -1,4 +1,4 @@
-# ¿Que es la Criptografia?
+# ¿QUE ES LA CRIPTOGRAFIA?
 
 <br>
 
@@ -8,7 +8,7 @@ Funciona mediante la utilizacion de cifras o codigos para escribir algo secreto 
 
 <br>
 
-## Usos de la Criptografia
+## USOS DE LA CRIPTOGRAFIA
 
 <br>
 
@@ -20,7 +20,7 @@ Conforme las computadoras fueron evolucionando tambien lo hizo la criptografia s
 
 <br>
 
-## Tipos de Encriptacion
+## TIPOS DE ENCRIPTACION
 
 <br>
 
@@ -32,7 +32,7 @@ La criptografia asimetrica es mas eficiente en la proteccion de la confiencialid
 
 <br>
 
-### * Encriptacion Asimetrica
+### * ENCRIPTACION ASIMETRICA
 
 <br>
 
@@ -44,7 +44,7 @@ Claves Privadas: Con la clave privada podemos cifrar información mientras la pe
 
 <br>
 
-### * Encriptacion Simetrica
+### * ENCRIPTACION SIMETRICA
 
 <br>
 
