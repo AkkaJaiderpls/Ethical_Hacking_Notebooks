@@ -1,14 +1,14 @@
-# ¿QUE ES LA CRIPTOGRAFIA?
+# ¿QUE ES LA CRIPTOGRAFIA? #
 
 <br>
 
-Basicamente, la criptografia es la tecnica que protege los documentos y datos.  
+Basicamente, la criptografia es la tecnica que protege los documentos y datos.
 
 Funciona mediante la utilizacion de cifras o codigos para escribir algo secreto en documentos y datos confindenciales que circulan en redes locales o incluso en internet.
 
 <br>
 
-## USOS DE LA CRIPTOGRAFIA
+## USOS DE LA CRIPTOGRAFIA ##
 
 <br>
 
@@ -20,7 +20,7 @@ Conforme las computadoras fueron evolucionando tambien lo hizo la criptografia s
 
 <br>
 
-## TIPOS DE ENCRIPTACION
+## TIPOS DE ENCRIPTACION ##
 
 <br>
 
@@ -32,7 +32,7 @@ La criptografia asimetrica es mas eficiente en la proteccion de la confiencialid
 
 <br>
 
-### * ENCRIPTACION ASIMETRICA
+### * ENCRIPTACION ASIMETRICA.- ###
 
 <br>
 
@@ -44,7 +44,7 @@ Claves Privadas: Con la clave privada podemos cifrar información mientras la pe
 
 <br>
 
-### * ENCRIPTACION SIMETRICA
+### * ENCRIPTACION SIMETRICA ###
 
 <br>
 

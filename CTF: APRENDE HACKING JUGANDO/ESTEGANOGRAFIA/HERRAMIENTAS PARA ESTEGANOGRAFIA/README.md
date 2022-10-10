@@ -1,4 +1,4 @@
-# HERRAMIENTAS PARA ESTEGANOGRAFIA
+# HERRAMIENTAS PARA ESTEGANOGRAFIA #
 
 <br>
 
@@ -6,7 +6,7 @@ En el caso de esteganografia contamos con muchas herramientas tanto en linea com
 
 <br>
 
-## ANALISIS COMPLETO DE UNA IMAGEN CON Forensically
+## ANALISIS COMPLETO DE UNA IMAGEN CON [Forensically](https://29a.ch/photo-forensics/) ##
 
 <br>
 
@@ -16,36 +16,36 @@ La parte que mas me gusta de esta herramienta es el Error Level Analysys donde p
 
 <br>
 
-## REVISAR LA METADATA DE UNA IMAGEN CON Metadata2go
+## REVISAR LA METADATA DE UNA IMAGEN CON [Metadata2go](https://www.metadata2go.com/) ##
 
 <br>
 
 La Exif Data es un tipo de metadata propia de las imagenes, en algunos casos pueden revelar el modelo de telefono celular o camara con la que fue tomada, asi como informacion asociada al dueño del dispositivo.
 
-Comenzaremos dirigiendonos a la pagina		https://www.metadata2go.com/		en ella vamos a adjuntar la foto que querramos analizar, al cabo de un rato podremos ver todos los metadatos que fueron encontrados en la fotografia.
+Comenzaremos dirigiendonos a la pagina	en ella vamos a adjuntar la foto que querramos analizar, al cabo de un rato podremos ver todos los metadatos que fueron encontrados en la fotografia.
 
 <br>
 
-## REVISAR EL TIPO DE ARCHIVO ORIGINAL CON CheckFileType
+## REVISAR EL TIPO DE ARCHIVO ORIGINAL CON [CheckFileType](https://www.checkfiletype.com/) ##
 
 <br>
 
 Una forma comun de ocultar informacion es cambiando la extension de un archivo, de esta manera un archivo puede aparentar por ejemplo ser una imagen corrupta.
 
-Se puede revisar el tipo de archivo original en el siguiente enlace		https://www.checkfiletype.com/		basta con subir el archivo en cuestion y la pagina va determinar la extension original.
+Se puede revisar el tipo de archivo original en el siguiente enlace		basta con subir el archivo en cuestion y la pagina va determinar la extension original.
 
 
 <br>
 
-## Revisar cabeceras Hexadecimales con OnlineHexEditor
+## Revisar cabeceras Hexadecimales con [OnlineHexEditor](https://www.onlinehexeditor.com/) ##
 
 <br>
 
-Si quiseramos revisar si alguna imagen contiene algun tipo de archivo adjunto podemos apoyarnos de herramientas como		https://www.onlinehexeditor.com/		para ello subimos nuestra imagen y esperamos el resultado, deberiamos ver algo como esto.
+Si quiseramos revisar si alguna imagen contiene algun tipo de archivo adjunto podemos apoyarnos de herramientas como para ello subimos nuestra imagen y esperamos el resultado, deberiamos ver algo como esto.
 
 <br>
 
-## ENCONTRAR MENSAJES OUCLTOS EN UNA IMAGEN CON OpenStego
+## ENCONTRAR MENSAJES OUCLTOS EN UNA IMAGEN CON [OpenStego](https://github.com/syvaidya/openstego/releases) ##
 
 <br>
 
@@ -53,45 +53,42 @@ A diferencia de la anterior herramienta con OpenStego podemos extraer informacio
 
 Ademas, podemos ocultar nuestros propios mensajes asi como cifrarlos con contraseñas.
 
-Para instalarlo basta con ir a su repositorio y copiarlo		https://github.com/syvaidya/openstego/releases		
+Para instalarlo basta con ir a su repositorio y copiarlo
 
 <br>
 
-## ENCONTRAR MENSAJES OCUTOS EN UNA IMAGEN CON Stegsolve
+## ENCONTRAR MENSAJES OCUTOS EN UNA IMAGEN CON [Stegsolve](https://github.com/eugenekolo/sec-tools/blob/master/stego/stegsolve/stegsolve/stegsolve.jar) ##
 
 <br>
 
-Es una herramienta codificada en Java bastante util para esteganografia de imagenes, nos va permitir visualizar los distintos planos de colores de una imagen para descubrir mensaes ocultos. Podemos conseguirla del siguiente repositorio.
-
-https://github.com/eugenekolo/sec-tools/blob/master/stego/stegsolve/stegsolve/stegsolve.jar
+Es una herramienta codificada en Java bastante util para esteganografia de imagenes, nos va permitir visualizar los distintos planos de colores de una imagen para descubrir mensajes ocultos. Podemos conseguirla del siguiente repositorio.
 
 Para instalar esta herramienta se requiere instalar Java previamente.
 
 <br>
 
-## ENCONTRAR MENSAJES OCUTOS EN UNA IMAGEN CON Steghide
+## ENCONTRAR MENSAJES OCUTOS EN UNA IMAGEN CON [Steghide](https://github.com/StefanoDeVuono/steghide.git) ##
 
 <br>
 
 Steghide nos va permitir encubrir registros confidenciales dentro de una imagen o sonido con una frase de contraseña.
 
-https://github.com/StefanoDeVuono/steghide.git
 
 Podemos encontrar esta herramienta en su repositorio de GitHub.
 
 <br>
 
-## ENCONTRAR MENSAJES OCULTOS EN AUDIOS CON Audacity
+## ENCONTRAR MENSAJES OCULTOS EN AUDIOS CON [Audacity](https://www.audacityteam.org/download/linux/) ##
 
 <br>
 
 Como ya conocemos, la esteganografia tambien puede ser usadas en audios para ocultar mensajes, para este trabajo nostros vamos a utilizar una herramienta gratuita llamada Audacity que nos va permitir revisar las ondas de audios en busqueda de informacion.
 
-Para descargarlo basta con ir a su pagina oficial y seguir los pasos		https://www.audacityteam.org/download/linux/		
+Para descargarlo basta con ir a su pagina oficial y seguir los pasos.
 
 <br>
 
-## COMPROBAR EL TAMAÑO DE LOS ARCHIVOS
+## COMPROBAR EL TAMAÑO DE LOS ARCHIVOS ##
 
 <br>
 

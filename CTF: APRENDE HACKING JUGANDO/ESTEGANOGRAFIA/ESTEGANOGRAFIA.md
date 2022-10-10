@@ -1,4 +1,4 @@
-# ¿QUE ES LA ESTEGANOGRAFIA?
+# ¿QUE ES LA ESTEGANOGRAFIA? #
 
 <br>
 
@@ -12,17 +12,17 @@ Actualmente en el area de la seguridad informatica ha suscitado mucho interes en
 
 <br>
 
-## RELACION CON LA CRIPTOGRAFIA
+## RELACION CON LA CRIPTOGRAFIA ##
 
 <br>
 
-La esteganografia y criptografia tienen varias similitudes y diferencias. Ambas tienen el propsito de evitar que personas no autorizadas tengan acceso a la informacion. 
+La esteganografia y criptografia tienen varias similitudes y diferencias. Ambas tienen el propsito de evitar que personas no autorizadas tengan acceso a la informacion.
 
 En la criptografia el mensaje es ilegible para cualquiera que no tenga el metodo de descifrarlo, pero no oculta el hecho de que un mensaje se esta enviando, mientras que en la esteganografia se suele evitar que otros se den cuenta que hay un mensaje en primer lugar.
 
 <br>
 
-## ESCENARIOS DE USO
+## ESCENARIOS DE USO ##
 
 <br>
 
