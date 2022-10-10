@@ -13,9 +13,7 @@ Identificar el tipo de cifrado, comparandolo con los tipos mas comunes o usando 
 		=
 
 Leyendo el enunciado nos damos cuenta que cuando hablamos de la palabra “emperador” estamos hablando de tiempos muy antiguos, por lo que podemos suponer que estamos tratando con un cifrado de cesar.
-Podemos resolverlo a mano o apoyarnos de herramientas como ser
-
-https://www.dcode.fr/caesar-cipher
+Podemos resolverlo a mano o apoyarnos de herramientas como ser [dCode.](https://www.dcode.fr/caesar-cipher)
 
 Solo basta con colocar la palabra a decifrar y por fuerza bruta nos va mostrar las 26 posibles rotaciones.
 

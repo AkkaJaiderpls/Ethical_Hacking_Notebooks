@@ -8,7 +8,7 @@ Los que vamos a ver en esta lista son herramientas que nos van a permitir tanto 
 
 <br>
 
-## [CyberChef.-](https://cyberchef.org/) ##
+## [CyberChef](https://cyberchef.org/) ##
 
 <br>
 
@@ -18,7 +18,7 @@ El uso es sencillo, colocamos la entrada y elegimos si queremos decodificarlo o 
 
 <br>
 
-## [dCode.-](https://www.dcode.fr/tools-list) ##
+## [dCode](https://www.dcode.fr/tools-list) ##
 
 <br>
 
@@ -39,7 +39,7 @@ Basta con colocar el cifrado y veremos una lista de aproximaciones en cuanto a q
 
 <br>
 
-## [Binary Hex Converter.-](https://www.binaryhexconverter.com/) ##
+## [Binary Hex Converter](https://www.binaryhexconverter.com/) ##
 
 <br>
 
@@ -47,7 +47,7 @@ BinaryHexConverter viene siendo similar a una calculadora con muchas opciones de
 
 <br>
 
-## [Hash Type Identifier.-](https://hashes.com/en/tools/hash_identifier) ##
+## [Hash Type Identifier](https://hashes.com/en/tools/hash_identifier) ##
 
 <br>
 

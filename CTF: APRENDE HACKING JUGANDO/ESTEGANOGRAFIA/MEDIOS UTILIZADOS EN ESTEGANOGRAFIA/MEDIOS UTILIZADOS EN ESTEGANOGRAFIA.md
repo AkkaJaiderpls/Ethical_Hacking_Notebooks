@@ -2,9 +2,11 @@
 
 <br>
 
-Hoy en dia existen una gran variedad de tecnicas de esteganografia en medios digitales, existe variacion dependiendo del medio en si, hay tecnicas para documentos de texto, imagenes y archivos de audio. 
+Hoy en dia existen una gran variedad de tecnicas de esteganografia en medios digitales, existe variacion dependiendo del medio en si, hay tecnicas para documentos de texto, imagenes y archivos de audio.
 
 Cada medio posee herramientas y tecnicas propias.
+
+<br>
 
 ## Esteganografia de Texto
 

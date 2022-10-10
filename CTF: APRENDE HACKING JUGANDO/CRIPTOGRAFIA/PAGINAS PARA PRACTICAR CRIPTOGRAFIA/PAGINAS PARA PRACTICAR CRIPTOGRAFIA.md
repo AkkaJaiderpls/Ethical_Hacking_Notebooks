@@ -8,7 +8,7 @@ Entre mis favoritas y las que recomiendo siempre dependiendo de la situacion ten
 
 <br>
 
-## [Over The Wire.-](https://overthewire.org/wargames/krypton/krypton4.html) ##
+## [Over The Wire](https://overthewire.org/wargames/krypton/krypton4.html) ##
 
 <br>
 
@@ -16,7 +16,7 @@ Es mas orientada a situaciones que podamos encontrarnos en una auditoria real.
 
 <br>
 
-## [Crypto Hack.-](https://cryptohack.org/) ##
+## [Crypto Hack](https://cryptohack.org/) ##
 
 <br>
 
@@ -24,7 +24,7 @@ Lo bueno de esta pagina es que son retos que podemos resolver haciendonos nuestr
 
 <br>
 
-## [Pico CTF.-](https://www.picoctf.org/) ##
+## [Pico CTF](https://www.picoctf.org/) ##
 
 <br>
 
