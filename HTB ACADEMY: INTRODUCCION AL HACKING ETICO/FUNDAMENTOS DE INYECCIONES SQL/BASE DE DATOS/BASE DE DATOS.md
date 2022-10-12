@@ -113,20 +113,20 @@ Cada uno de los modelos anteriores tiene una forma diferente de almacenar datos,
 
 El ejemplo anterior se puede representar usando JSON como:
 
-`{
-  "100001": {
-    "date": "01-01-2021",
-    "content": "Welcome to this web application."
-  },
-  "100002": {
-    "date": "02-01-2021",
-    "content": "This is the first post on this web app."
-  },
-  "100003": {
-    "date": "02-01-2021",
-    "content": "Reminder: Tomorrow is the ..."
-  }
-}`
+    {
+        "100001": {
+        "date": "01-01-2021",
+        "content": "Welcome to this web application."
+        },
+        "100002": {
+            "date": "02-01-2021",
+            "content": "This is the first post on this web app."
+        },
+        "100003": {
+            "date": "02-01-2021",
+            "content": "Reminder: Tomorrow is the ..."
+        }
+    }
 
 Se parece a un elemento de diccionario en idiomas como Python o PHP.
 
