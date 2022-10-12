@@ -36,7 +36,38 @@ La utilidad "mysql" se utiliza par autenticarse e interactuatse con una base de 
 
 <br>
 
-    $   mysql -u "usuario" -p
+    $   mysql -u root -p
+        Enter password:
+        ...SNIP...
+
+    MariaDB>
+
+<br>
+
+<br>
+
+Nuevamente, tambien es posible usar la contraseña directamente en el comando, aunque esto debe evitarse, ya que podria almacenarse en el historial de la terminal.
+
+    $   mysql -u root -p<password>
+        Enter password:
+        ...SNIP...
+
+    MariaDB>
+
+<br>
+
+    Nota: No debe haber espacio entre '-p' y la contraseña.
+
+<br>
+
+Los ejemplos anteriores iniciamos como superusuario, es decir "root" con la contraseña "password" para tener privilegios para ejecutar todos los comandos. Otros usuarios pueden tener privilegios menores. Podemos ver que privilegios tenemos usando el comando SHOW GRANTS que veremos mas adelante.
+
+Cuando no especificamos un HOST, por defecto usaremos el servidor de localhost. Podemos especificar un host remoto y un puerto usando las banderas "-h" y "-P".
+
+<br>
+
+    $   mysql -u root -h docker.hackthebox.eu -P 3306 -p
+
         Enter password:
         ...SNIP...
 
@@ -50,4 +81,35 @@ La utilidad "mysql" se utiliza par autenticarse e interactuatse con una base de 
 
 ## CREANDO UNA BASE DE DATOS
 
+<br>
+
+Una vez que iniciamos sesion en la base de datos usando el mysql, podemos comenzar a realizar consultas SQL para interactuar con el DBMS. Por ejemplo, se puede crear una nueva base de datos dentro de MYSQL DBMS usando la instruccion "CREATE DATABASE".
+
+<br>
+
+    mariadb> CREATE DATABASE users;
+
+    Query OK, 1 row affected (0.02 sec)
+
+<br>
+
+MYSQL espera que las consultas de la linea de coandos terminen con un punto y coma. El ejemplo anterior creo una base de datos llamada USERS. Podemos ver la lista de base de datos con "SHOW DATABASE", y podemos camviar a la base de datos USERS con la declaracion "USE".
+
+    mariadb> SHOW DATABASES;
+
+    +--------------------+
+    | Database           |
+    +--------------------+
+    | information_schema |
+    | mysql              |
+    | performance_schema |
+    | sys                |
+    | users              |
+    +--------------------+
+
+    mariadb> USE users;
+
+    Database changed
+
+<br>
 
