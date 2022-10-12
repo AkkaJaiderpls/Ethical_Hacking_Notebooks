@@ -41,25 +41,34 @@ En la mayoria de los casos se lanzan convocatorias por RRSS, basta con inscribir
 Actualmente existen muchas plataformas donde podemos practicar completamente GRATIS.
 Algunas de ellas son:
 
-### * [Hack The Box.-]() ###
+<br>
+
+ * [Hack The Box.-]()
+
 Mi favorito entre todos, cuenta con muchas maquinas con distintos tipos de sistemas operativos ademas de retos de diferentes tematicas.
 
-### * [Hack Me.-]() ###
+ * [Hack Me.-]()
+
 Plataforma donde vamos a poder subir nuestros propios sitios web vulnerables para fines educativos y de investigacion.
 
-### * [HackThis.-]() ###
+ * [HackThis.-]()
+
 Sitio de entrenamiento con diferentes tipos de retos por niveles donde ira incrementando la dificultad.
 
-### * [CTF Time.-]() ###
+ * [CTF Time.-]()
+
 Plataforma para practicar en equipos con amigos donde puedes participar en competencias a nivel mundial
 
-### * [VulnHub.-]() ###
+ * [VulnHub.-]()
+
 Maqunas virtuaes para hacer nuestros propios laboratorios.
 
-### * [Root Me.-]() ###
+ * [Root Me.-]()
+
 Sitio con diferentes retos y niveles.
 
-### * [OverTheWire.-]() ###
+ * [OverTheWire.-]()
+
 La mejor para comenzar en el hacking y familiarizarse con los comandos Linux.
 
 

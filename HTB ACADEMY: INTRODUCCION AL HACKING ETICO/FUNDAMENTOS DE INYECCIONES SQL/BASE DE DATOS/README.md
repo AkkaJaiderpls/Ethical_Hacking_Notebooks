@@ -79,7 +79,7 @@ Por ejemplo, podemos tener una tabla USERS en una base de datos relacionales que
 
 Podemos vincular el ID desde la tabla USERS a la tabla POST con USER_ID para poder recuperar los detalles del usuario para cada publicacion. Una tabla puede tener mas de una clave. Asi por ejmplo, la columna ID se puede utilizar para vincular la tabla POST a otra que contenga COMENTARIOS, cada uno de los cuales pertenece a una publicacion en particular, y asi, sucesivamente.
 
-"La relacion entre tablas dentro de una base de datos se llama ESQUEMA".
+    "La relacion entre tablas dentro de una base de datos se llama ESQUEMA".
 
 De esta manera, mediante el uso de bases de datos relacionales, se vuelve rapido y facil recuperar todos lo datos sobre in elemento en particular. Asi, por ejemplo, podemos recuperar los detalles vinculados a un usuario en especifico de todas las tablas con una sola consulta.
 
@@ -132,5 +132,5 @@ Se parece a un elemento de diccionario en idiomas como Python o PHP.
 
 El ejemplo mas comun de una base de datos NOSQL es MongoDB.
 
-" Las bases de datos no relacionales tienen un metodo difernete de inteccion conocido como inyecciones NOSQL. Las inyecciones SQL son completamente distintas a las inyecciones NOSQL. "
+    "Las bases de datos no relacionales tienen un metodo diferente de inteccion conocido como inyecciones NOSQL. Las inyecciones SQL son completamente distintas a las inyecciones NOSQL."
 

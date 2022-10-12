@@ -6,11 +6,9 @@ Leer detenidamente el enunciado en busqueda de alguna pista sobre el tipo de cif
 
 Identificar el tipo de cifrado, comparandolo con los tipos mas comunes o usando herramientas externas.
 
-
 	“Un famoso emperador nos ha dejado un mensaje, ¿Puedes ver de que se trata?"
 
-        MENSAJE: Crod.
-		=
+    MENSAJE: Crod.
 
 Leyendo el enunciado nos damos cuenta que cuando hablamos de la palabra “emperador” estamos hablando de tiempos muy antiguos, por lo que podemos suponer que estamos tratando con un cifrado de cesar.
 Podemos resolverlo a mano o apoyarnos de herramientas como ser [dCode.](https://www.dcode.fr/caesar-cipher)
@@ -21,15 +19,15 @@ En caso busquemos codificar solo colocamos las palabras y el numero de separacio
 
 <br>
 
-•		Numeros 1-26 	    →			Abecedario
+• Numeros 1-26 → Abecedario
 
-•		Numeros 1/0	        →			Binario
+• Numeros 1/0 → Binario
 
-•		Numeros/Letras 	    →			Hexadecimal
+• Numeros/Letras → Hexadecimal
 
-•		Mensaje y Llave   	→			Vigenere
+• Mensaje y Llave → Vigenere
 
-•		BASE32/64 	        →			==, =
+• BASE32/64 → ==, =
 
 <br>
 
