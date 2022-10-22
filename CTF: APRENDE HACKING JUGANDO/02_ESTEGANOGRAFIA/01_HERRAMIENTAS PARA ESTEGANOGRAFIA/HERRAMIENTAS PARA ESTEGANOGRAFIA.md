@@ -45,7 +45,7 @@ Si quiseramos revisar si alguna imagen contiene algun tipo de archivo adjunto po
 
 <br>
 
-## ENCONTRAR MENSAJES OUCLTOS EN UNA IMAGEN CON [OpenStego](https://github.com/syvaidya/openstego/releases) ##
+## ENCONTRAR MENSAJES OCULTOS EN UNA IMAGEN CON [OpenStego](https://github.com/syvaidya/openstego/releases) ##
 
 <br>
 

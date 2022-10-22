@@ -204,12 +204,12 @@ Cuando la consulta no devuelve nada, el inicio de sesion falla negando el acceso
 
 <br>
 
-Antes de comenzar a subvertir la logica de la aplicacion web e intentar eludir la autenticacion, primero debemos pribar si el formulario de inicio de sesion es vulnerable a las inyecciones SQL. Para ello, al final de la consulta vamos a agregar una carga util y veremos si causamos algun eror o cambiamos el comportamiento de la pagina.
+Antes de comenzar a subvertir la logica de la aplicacion web e intentar eludir la autenticacion, primero debemos pribar si el formulario de inicio de sesion es vulnerable a las inyecciones SQL. Para ello, al final de la consulta vamos a agregar un payload y veremos si causamos algun eror o cambiamos el comportamiento de la pagina.
 
 <br>
 
     *---------------*-------------------*
-    |   CARGA UTIL  |   URL CODIFICADA  |
+    |    PAYLOAD    |   URL CODIFICADA  |
     *---------------*-------------------*
     |       '       |        %27        |
     |       "       |        %22        |
@@ -220,7 +220,7 @@ Antes de comenzar a subvertir la logica de la aplicacion web e intentar eludir l
 
 <br>
 
-    NOTA: En algunos casos, es posible que tengamos que usar la version codificada de URL en la carga util.
+    NOTA: En algunos casos, es posible que tengamos que usar la version codificada de URL en la payload.
 
 <br>
 
@@ -280,7 +280,7 @@ El operador AND sera evaluado primero y devolvera false. Entonces el operador OR
 
 <br>
 
-    NOTA: La carga util que usamos anteriormente es una de las muchisimas cargas utiles de omision de autenticacion de SQLi en PayloadAllTheThings, cada una de las cuales funciona en un determinado tipo de consultas SQL.
+    NOTA: El payload que usamos anteriormente es una de las muchisimas cargas utiles de omision de autenticacion de SQLi en PayloadAllTheThings, cada una de las cuales funciona en un determinado tipo de consultas SQL.
 
 <br>
 
@@ -376,7 +376,7 @@ El simbolo "#" tambien se puede utilizar.
 
 <br>
 
-    SUGERENCIA: Si estas ingresando una carga util en la URL dentro de un navegador, un simbolo (#) generalmente se considera una etiquea y no se pasara como parte de la URL. Para usar el (#) como comentario dentro de un navegador, podemos usar el '%23' que es un simbolo de "#" codificado en URL.
+    SUGERENCIA: Si estas ingresando una payload en la URL dentro de un navegador, un simbolo (#) generalmente se considera una etiquea y no se pasara como parte de la URL. Para usar el (#) como comentario dentro de un navegador, podemos usar el '%23' que es un simbolo de "#" codificado en URL.
 
 <br>
 
@@ -578,7 +578,7 @@ Por ejemplo, podemos usar cualquier cadena como nuestros datos no deseados y la 
 
 <br>
 
-    NOTA: Al llenar otras columnas con datos no deseados, debemos asegurarnos de que el tipo de datos coincida con loso datos de las columnas, de lo contrario nos devolvera un error. En aras de la simplicidad usaremos numeros ocmo datos basuras que tambien seran utiles para rastrear la posicion donde inyectaremos nuesta carga util.
+    NOTA: Al llenar otras columnas con datos no deseados, debemos asegurarnos de que el tipo de datos coincida con loso datos de las columnas, de lo contrario nos devolvera un error. En aras de la simplicidad usaremos numeros ocmo datos basuras que tambien seran utiles para rastrear la posicion donde inyectaremos nuestro payload.
 
 <br>
 
@@ -662,7 +662,7 @@ La primera forma de detectar el numero de columas es a traves de la funcion de O
 
 Por ejemplo. podemos empezar con order by 1, ordenando solo la primera columnas, al no tener un error sabemos de que la tabla tiene al menos una columna. Entonces haremos un order by 2, y order by 3, hasta que llegemos a un numero de columnas que nos devuelva un error o la pagina no muestren nada, lo que significa que esa cantidad de columnas no existe. Usaremos la ultima columna que no nos dio error.
 
-Si fallamos en order by 4, esto significa que la tabla tiene trs columnas. Volvemos a nuestro ejemplo anterior e intenmos con la carga util:
+Si fallamos en order by 4, esto significa que la tabla tiene trs columnas. Volvemos a nuestro ejemplo anterior e intenmos con la payload:
 
 <br>
 
@@ -682,7 +682,7 @@ Como vemos, obtenemos un resultado normalmente:
 
 <br>
 
-A continuacion, intentemos ordenar por la segunda columna con la siguiente carga util.
+A continuacion, intentemos ordenar por la segunda columna con la siguiente payload.
 
 <br>
 
@@ -742,7 +742,7 @@ Entonces probamos con cuatro columnas y veamos las respuesta.
 
 <br>
 
-Esta vez obtuvimos con exito los resultados, lo que significa una vez mas que la tabla tiene 4 columnas. Podemos usar cualquier metodo para obtener el numero total de las columnas. Una vez que conocemos el numero de columnas, sabemos como formar nuestra carga util y podemos continuar.
+Esta vez obtuvimos con exito los resultados, lo que significa una vez mas que la tabla tiene 4 columnas. Podemos usar cualquier metodo para obtener el numero total de las columnas. Una vez que conocemos el numero de columnas, sabemos como formar nuestro payload y podemos continuar.
 
 <br>
 
