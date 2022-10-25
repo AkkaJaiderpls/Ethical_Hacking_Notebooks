@@ -77,6 +77,6 @@ El uso del modelo OSI se basa jeraquicamente entre si para lograr este objetivo.
 dadad &  &  &  & dsad \\
       &  &  &  &      \\
       &  &  &  &      \\
-      &  &  &  &     
+      &  &  &  &
 \end{tabular}
 \end{table}
