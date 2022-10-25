@@ -569,5 +569,3 @@ Una vez mas, no vemos ningun error, lo que significa que la escritura de archivo
 <br>
 
 La salida del comando id nos confirma que tenemos ejecucion de codigo y lo estamos usando como el usuario www-data.
-
-
