@@ -72,7 +72,8 @@ El objetivo en la definicion de ISO/OSI estandar fue crear un modelo de referenc
 
 El uso del modelo OSI se basa jeraquicamente entre si para lograr este objetivo. Estas capas representan fases en el establecimiento de cada conexion por donde pasaran los paquetes enviados.
 
-    | Syntax      | Description |
-    | ----------- | ----------- |
-    | Header      | Title       |
-    | Paragraph   | Text        |
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
