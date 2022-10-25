@@ -1,4 +1,4 @@
-# Medios utilizados en la Esteganografia
+# MEDIOS UTILIZADOS EN LA ESTEGANOGRAFIA #
 
 <br>
 
@@ -8,7 +8,7 @@ Cada medio posee herramientas y tecnicas propias.
 
 <br>
 
-## Esteganografia de Texto
+## ESTEGANOGRAFIA DE TEXTO ##
 
 <br>
 
@@ -16,7 +16,7 @@ Algunas de las tecnicas para ocultar informacion en un archivo de texto son medi
 
 <br>
 
-## Esteganografia de Imagenes
+## ESTEGANOGRAFIA DE IMAGENES ##
 
 <br>
 
@@ -24,7 +24,7 @@ Para ocultar mensajes en imagenes se suele jugar con el brillo y los colores de 
 
 <br>
 
-## Esteganografia de Audio
+## ESTEGANOGRAFIA DE AUDIO ##
 
 <br>
 
@@ -32,7 +32,7 @@ Lo mas comun para ocultar un mensaje en un archivo de audio es modificando el es
 
 <br>
 
-## Esteganografia de SSTV
+## ESTEGANOGRAFIA DE SSTV ##
 
 <br>
 

@@ -70,7 +70,7 @@ Veamos un ejemplo de codigo incorrecto.
     if (isset($_GET["port_code"])) {
         $q = "Select * from ports where port_code ilike '%" . $_GET["port_code"] . "%'";
         $result = pg_query($conn,$q);
-        
+
         if (!$result)
         {
             die("</table></div><p style='font-size: 15px;'>" . pg_last_error($conn). "</p>");

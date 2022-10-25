@@ -6,19 +6,14 @@ Cada red es estructurada de manera diferente y puede configurarse individualment
 
 <br>
 
-    TERMINOLOGIA COMUN
+TERMINOLOGIA COMUN
 
-    *---------------------------------------*------------------------------------------------*
-    |             TIPOS DE REDES            |                   DEFINICION                   |
-    *---------------------------------------*------------------------------------------------*
-    | Red de Area Amplia (WAN)              | Internet                                       |
-    *---------------------------------------*------------------------------------------------*
-    | Red de Area Local (LAN)               | Redes Internas (Ej: Hogares u Oficinas)        |
-    *---------------------------------------*------------------------------------------------*
-    | Red de Area Local Inalambrica (WLAN)  | Redes Internas accesibles a traves de Wi-Fi    |
-    *---------------------------------------*------------------------------------------------*
-    | Red Privada Virtual                   | Conecta Multiples sitios de red a uno LAN      |
-    *---------------------------------------*------------------------------------------------*
+| TIPOS DE REDES                         | DEFINICION                                         |
+| -------------------------------------- | ---------------------------------------------------|
+| Red de Area Amplia (WAN)               | Internet                                           |
+| Red de Area Local (LAN)                | Redes Internas (Ej: Hogares u Oficinas)            |
+| Red de Area Local Inalambrica (WLAN)   | Redes Internas accesibles a traves de Wi-Fi        |
+| Red Privada Virtual (VPN)              | Conecta Multiples sitios de red a uno LAN          |
 
 <br>
 
@@ -70,17 +65,13 @@ Esta es esenciamente una VPN que se realiza adentro de nuestro navegador web y s
 
 <br>
 
-    TERMINOLOGIA DE LIBROS
+TERMINOLOGIA DE LIBROS
 
-    *-----------------------------------------*------------------------------------------------*
-    |             TIPOS DE REDES              |                   DEFINICION                   |
-    *-----------------------------------------*------------------------------------------------*
-    | Red de Area Global (GAN)                | Red Mundial (Internet)                         |
-    *-----------------------------------------*------------------------------------------------*
-    | Red de Area Metropolitana (MAN)         | Redes Regional (Multiples LAN)                 |
-    *-----------------------------------------*------------------------------------------------*
-    | Red de Area Personal Inalambrica (WPAN) | Redes Personal                                 |
-    *-----------------------------------------*------------------------------------------------*
+| TIPOS DE REDES                            | DEFINICION                                         |
+| ----------------------------------------- | ---------------------------------------------------|
+| Red de Area Global (GAN)                  | Red Mundial (Internet)                             |
+| Red de Area Metropolitana (MAN)           | Redes Regional (Multiples LAN)                     |
+| Red de Area Personal Inalambrica (WPAN)   | Redes Personal                                     |
 
 <br>
 
@@ -136,6 +127,7 @@ Podemos dividir toda el area de topologia de la red tres areas:
 1. Conexiones
 
 <br>
+
 
     *-----------------------------*-----------------------------*
     |      WIRED CONNECTIONS      |    WIRELESS CONNECTIONS     |

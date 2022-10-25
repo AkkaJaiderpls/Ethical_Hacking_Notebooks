@@ -159,10 +159,17 @@ Al ser demasiado complejo no se puede decodificar, lo que podemos hacer para obt
 
 Son una familia de funciones de hash criptográficas publicadas por el Instituto Nacional de Estándares y Tecnología (NIST) como un estándar federal de procesamiento de información (FIPS) de EE. UU; que incluyen:
 
-* SHA-0
-* SHA-1
-* SHA-2
-* SHA-3
+<br>
+
+    * SHA-0
+
+    * SHA-1
+
+    * SHA-2
+
+    * SHA-3
+
+<br>
 
 Es otro tipo de hash parecido al MD5, es unico e irrepetible, por lo que solo se puede realizar un reverse a traves de un lookup a traves del hash, hay herramientas en internet que nos permiten identificar con que tipo de algoritmo se realizo un HASH.
 
