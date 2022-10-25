@@ -208,15 +208,13 @@ Antes de comenzar a subvertir la logica de la aplicacion web e intentar eludir l
 
 <br>
 
-    *---------------*-------------------*
-    |    PAYLOAD    |   URL CODIFICADA  |
-    *---------------*-------------------*
-    |       '       |        %27        |
-    |       "       |        %22        |
-    |       #       |        %23        |
-    |       ;       |        %3b        |
-    |       )       |        %29        |
-    *---------------*-------------------*
+| PAYLOAD     | URL CODIFICADA |
+| ----------- | -----------    |
+| '           | %27            |
+| "           | %22            |
+| #           | %23            |
+| ;           | %3b            |
+| )           | %29            |
 
 <br>
 

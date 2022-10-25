@@ -208,15 +208,13 @@ Antes de comenzar a subvertir la logica de la aplicacion web e intentar eludir l
 
 <br>
 
-    *---------------*-------------------*
-    |    PAYLOAD    |   URL CODIFICADA  |
-    *---------------*-------------------*
-    |       '       |        %27        |
-    |       "       |        %22        |
-    |       #       |        %23        |
-    |       ;       |        %3b        |
-    |       )       |        %29        |
-    *---------------*-------------------*
+| PAYLOAD     | URL CODIFICADA |
+| ----------- | -----------    |
+| '           | %27            |
+| "           | %22            |
+| #           | %23            |
+| ;           | %3b            |
+| )           | %29            |
 
 <br>
 
@@ -376,7 +374,7 @@ El simbolo "#" tambien se puede utilizar.
 
 <br>
 
-    SUGERENCIA: Si estas ingresando un payload en la URL dentro de un navegador, un simbolo (#) generalmente se considera una etiquea y no se pasara como parte de la URL. Para usar el (#) como comentario dentro de un navegador, podemos usar el '%23' que es un simbolo de "#" codificado en URL.
+    SUGERENCIA: Si estas ingresando una payload en la URL dentro de un navegador, un simbolo (#) generalmente se considera una etiquea y no se pasara como parte de la URL. Para usar el (#) como comentario dentro de un navegador, podemos usar el '%23' que es un simbolo de "#" codificado en URL.
 
 <br>
 
@@ -662,7 +660,7 @@ La primera forma de detectar el numero de columas es a traves de la funcion de O
 
 Por ejemplo. podemos empezar con order by 1, ordenando solo la primera columnas, al no tener un error sabemos de que la tabla tiene al menos una columna. Entonces haremos un order by 2, y order by 3, hasta que llegemos a un numero de columnas que nos devuelva un error o la pagina no muestren nada, lo que significa que esa cantidad de columnas no existe. Usaremos la ultima columna que no nos dio error.
 
-Si fallamos en order by 4, esto significa que la tabla tiene trs columnas. Volvemos a nuestro ejemplo anterior e intenmos con el payload:
+Si fallamos en order by 4, esto significa que la tabla tiene trs columnas. Volvemos a nuestro ejemplo anterior e intenmos con la payload:
 
 <br>
 
@@ -682,7 +680,7 @@ Como vemos, obtenemos un resultado normalmente:
 
 <br>
 
-A continuacion, intentemos ordenar por la segunda columna con el siguiente payload.
+A continuacion, intentemos ordenar por la segunda columna con la siguiente payload.
 
 <br>
 
