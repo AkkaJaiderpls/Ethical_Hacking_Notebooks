@@ -129,17 +129,12 @@ Podemos dividir toda el area de topologia de la red tres areas:
 <br>
 
 
-    *-----------------------------*-----------------------------*
-    |      WIRED CONNECTIONS      |    WIRELESS CONNECTIONS     |
-    *-----------------------------*-----------------------------*
-    | Cableado Coaxial            | WiFi                        |
-    *-----------------------------*-----------------------------*
-    | Cableado de Fibra de Vidrio | Celular                     |
-    *-----------------------------*-----------------------------*
-    | Cableado de Par Trenzado    | Satelite                    |
-    *-----------------------------*-----------------------------*
-    | y otros                     | y otros                     |
-    *-----------------------------*-----------------------------*
+| WIRED CONNECTIONS                         | WIRELESS CONNECTIONS                               |
+| ----------------------------------------- | ---------------------------------------------------|
+| Cableado Coaxial                          | WiFi                                               |
+| Cableado de Fibra de Vidrio               | Celular                                            |
+| Cableado de Par Trenzado                  | Satelite                                           |
+| y otros                                   | y otros                                            |
 
 <br>
 
@@ -147,11 +142,9 @@ Podemos dividir toda el area de topologia de la red tres areas:
 
 <br>
 
-    *-----------------------------*-----------------------------*-----------------------------*-----------------------------*
-    |         REPETIDORES         |       CONCENTRADORES        |           PUENTES           |         INTERRUPTORES       |
-    *-----------------------------*-----------------------------*-----------------------------*-----------------------------*
-    | Enrutador/Modem             | Pasarelas                   | Cortafuegos                 |                             |
-    *-----------------------------*-----------------------------*-----------------------------*-----------------------------*
+| REPETIDORES       | CONCENTRADORES   | REPETIDORES    | INTERRUPTORES |
+| ------------------| -----------------| -------------- | ------------- |
+| Enrutador/Modem   | Pasarelas        | Cortafuegos    |               |
 
 <br>
 
