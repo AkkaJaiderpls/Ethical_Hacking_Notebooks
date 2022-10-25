@@ -20,7 +20,8 @@ Mientras cubrimos MYSQL vamos a ver su huella digital. Las siguientes consultas 
 
     *---------------------------------------------------------------------------------------------------------------------------------------------------------------------*
     | PAYLOAD   	    | CUANDO USAR 	                                  | RENDIMIENTO ESPERADO 	                                  | SALIDA INCORRECTA                 |
-    *-------------------*-------------------------------------------------*-----------------------------------------------------------------------------------------------* | SELECT@@version   | Cuando tenemos la salida de consulta completa   | Versión de MySQL 'es decir 10.3.22-MariaDB-1ubuntu1'      | Error en otros DBMS.              |
+    *-------------------*-------------------------------------------------*-----------------------------------------------------------------------------------------------*
+    | SELECT@@version   | Cuando tenemos la salida de consulta completa   | Versión de MySQL 'es decir 10.3.22-MariaDB-1ubuntu1'      | Error en otros DBMS.              |
     *-------------------*-------------------------------------------------*-----------------------------------------------------------*-----------------------------------*
     | SELECT POW(1,1)   | Cuando solo tenemos salida numerica             | 1                                                         | Error con otros DBMS              |
     *-------------------*-------------------------------------------------*-----------------------------------------------------------*-----------------------------------*
@@ -571,4 +572,6 @@ Una vez mas, no vemos ningun error, lo que significa que la escritura de archivo
 
 <br>
 
-La salida del comandi id nos confirma que tenemos ejecucion de codigo y lo estamos usando como el usuario www-data.
+La salida del comando id nos confirma que tenemos ejecucion de codigo y lo estamos usando como el usuario www-data.
+
+
