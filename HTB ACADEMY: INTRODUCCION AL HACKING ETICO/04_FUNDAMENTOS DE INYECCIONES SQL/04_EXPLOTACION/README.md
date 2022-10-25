@@ -23,18 +23,6 @@ Mientras cubrimos MYSQL vamos a ver su huella digital. Las siguientes consultas 
 | SELECT@@version   | Cuando tenemos la salida de consulta completa     | Versión de MySQL 'es decir 10.3.22-MariaDB-1ubuntu1' | Error en otros DBMS.              |
 | SELECT POW(1,1)   | Cuando solo tenemos salida numerica               | 1                                                    | Error con otros DBMS              |
 | SELECT SLEEP(5)   | Ciego / Sin Salida                                | Retrasa la respuesta de la pagina por 5 segundos     | No retrasa la salida en otro DBMS |
- 
-
-
-    *---------------------------------------------------------------------------------------------------------------------------------------------------------------------*
-    | PAYLOAD   	    | CUANDO USAR 	                                  | RENDIMIENTO ESPERADO 	                                  | SALIDA INCORRECTA                 |
-    *-------------------*-------------------------------------------------*-----------------------------------------------------------------------------------------------*
-    | SELECT@@version   | Cuando tenemos la salida de consulta completa   | Versión de MySQL 'es decir 10.3.22-MariaDB-1ubuntu1'      | Error en otros DBMS.              |
-    *-------------------*-------------------------------------------------*-----------------------------------------------------------*-----------------------------------*
-    | SELECT POW(1,1)   | Cuando solo tenemos salida numerica             | 1                                                         | Error con otros DBMS              |
-    *-------------------*-------------------------------------------------*-----------------------------------------------------------*-----------------------------------*
-    | SELECT SLEEP(5)   | Ciego / Sin Salida                              | Retrasa la respuesta de la pagina por 5 segundos          | No retrasa la salida en otro DBMS |
-    *-------------------*-------------------------------------------------*-----------------------------------------------------------*-----------------------------------*
 
 <br>
 
