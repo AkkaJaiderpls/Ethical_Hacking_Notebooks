@@ -356,7 +356,7 @@ Muchas organizaciones usan Cloudflare porque tiene una red robusta que soporta l
 
 Los pentesters configuran proxies inversos en los puntos finales infectados. El punto final infectado escuchara un puerto y enviara a cualquier cliente que se conecte al puerto de regreso del atacante a traves del punto final infectado. Esto es util para eludir los firewalls o evadir el registro. Las organizaciones pueden tener un IDS (Intrusion Detection System), viendo solicitudes web externas. Si el atacante obtiene acceso a la organizacion a traves de SSH el atacante puede enviar solicitues a trabes de SSH y avadir el IDS.
 
-Otro proxy inverso comun es ModSecuritym un Web Aplication Firewall (WAF). Los firewalls de aplicaciones web inspeccionan las solicitudes en busca de contenido malicioso y blqouean la la solicitud en el caso de que sea maliciosa. Cloudflare tambien puede actuar como un WAF, pero para ello requieres de permitirle el acceso al trafico HTTPS, lo que es posible que algunas organizaciones no deseen.
+Otro proxy inverso comun es ModSecurity un Web Aplication Firewall (WAF). Los firewalls de aplicaciones web inspeccionan las solicitudes en busca de contenido malicioso y blqouean la la solicitud en el caso de que sea maliciosa. Cloudflare tambien puede actuar como un WAF, pero para ello requiere de permitirle el acceso al trafico HTTPS, lo que es posible que algunas organizaciones no deseen.
 
 <br>
 

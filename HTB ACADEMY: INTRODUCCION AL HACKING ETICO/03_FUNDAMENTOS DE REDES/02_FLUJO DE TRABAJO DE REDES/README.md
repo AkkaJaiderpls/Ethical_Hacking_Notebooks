@@ -72,8 +72,61 @@ El objetivo en la definicion de ISO/OSI estandar fue crear un modelo de referenc
 
 El uso del modelo OSI se basa jeraquicamente entre si para lograr este objetivo. Estas capas representan fases en el establecimiento de cada conexion por donde pasaran los paquetes enviados.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+<br>
 
+| CAPA                                  | FUNCION                                            |
+| ------------------------------------- | ---------------------------------------------------|
+| 7. Aplicacion                         | Entre otras cosas, esta capa controla la entrada y salida de datos y proporciona las funciones de la aplicación.                              |
+| 6. Presentacion                       | La tarea de la capa de presentación es transferir la presentación de datos dependiente del sistema a una forma independiente de la aplicación.|
+| 5. Sesion                             | La capa de sesión controla la conexión lógica entre dos sistemas y previene, por ejemplo, fallas en la conexión u otros problemas.            |
+| 4. Transporte                         | La capa 4 se utiliza para el control de extremo a extremo de los datos transferidos. La capa de transporte puede detectar y evitar situaciones de congestión y segmentar flujos de datos.      |
+| 3. Red                                | En la capa de red, las conexiones se establecen en redes de conmutación de circuitos y los paquetes de datos se reenvían en redes de conmutación de paquetes. Los datos se transmiten a través de toda la red desde el remitente hasta el receptor.                                     |
+| 2. Enlace de Datos                    | La tarea central de la capa 2 es permitir transmisiones confiables y sin errores en el medio respectivo. Para ello, los flujos de bits de la capa 1 se dividen en bloques o tramas.  Personal                                     |
+| 1. Fisica                             |Las técnicas de transmisión utilizadas son, por ejemplo, señales eléctricas, señales ópticas u ondas electromagnéticas. A través de la capa 1, la transmisión se realiza en líneas de transmisión alámbricas o inalámbricas.                                      |
+
+<br>
+
+Las capas 2-4 son orientadas a transporte, y las capas 5-7 son orientadas a la apliacion. En cada capa, se realizan tareas definidas con precision y las interfaces con las capas vecinas se describen con precision. Cada capa ofrece servicios para el uso de la capa directamente encima de ella. Pra que estos servicios esten disponibles, la capa utiliza los servicios de la de la capa anterior y luego realiza las tareas de su capa.
+
+Si dos sistemas se comunican las 7 capas del modelo OSI se ejecutan 2 veces, ya que tanto el emisor como el receptor deben tener en cuenta el modelo de capas.
+
+Cuando una aplicacion envia un paquete al otro sistema, el sistema trabaja las capas que se muestran desde la 7 hasta la 1, y el sistema receptor desmapquete el paquete recibido de la capa 1 hasta las 7.
+
+<br>
+
+# EL MODELO TCP/IP #
+
+<br>
+
+El modelo TCP/IP tambien es un modelo de referencia en capas, representa los dos protocolos Transmission Control Protocol (TCP) e Internet Protocol (IP). IP se encuentra dentro de la capa de red en el modelo OSI, mientras que TCP se encuentra en la capa de transporte.
+
+<br>
+
+| CAPA             | FUNCION                     |
+| ---------------- |-----------------------------|
+| 4. Aplicacion    | La capa de aplicacion permite que las aplicaciones accedan a los servicios de otras capas y define los protocolos que utilizan las aplicaciones para intercambiar datos.
+| 3. Transporte    | La capa de transporte es responsable de proporcionar servicios de sesion (TCP) y datagramas (UDP) para la capa de aplicacion.
+| 2. Internet    | La capa de internet es responsable de las funciones de direccionamiento, empaquetado y enrutamiento del host.
+| 1. Link    | La capa de enlace es responsable de colocar los paquetes TCP/IP en el medio de la red y recibir los paquetes correspondientes del medio de la red. TCP/IP esta diseñado para funcionar independiente del metodo de acceso a la red, el formato de la trama y el medio.
+
+<br>
+
+Con TCP/IP, cada aplicacion puede transferir e intercambiar datos a traves de cualquier red, y no importa donde se encuenre el receptor. IP asegura que el paquete de datos llegue a su destino, y TCP controla la trasnferencia de datos y asegura la conexion entre el flujo de datos y la aplicacion. La principal diferencia entre TCP/IP y OSI es el numero de capas, donde algunas se han combinado.
+
+<br>
+
+![](https://academy.hackthebox.com/storage/modules/34/redesigned/net_models4.png)
+
+<br>
+
+Las tareas mas importantes de TCP/IP son:
+
+<br>
+
+| TAREA                | PROTOCOLO         | DESCRIPCION |
+| -------------------- | ------------------| ----------- |
+| Logical Addressing   | IP                | Debido a que hay muchos hosts en diferentes redes, es necesario estrucutrar la topologia de la red y el direccionamiento logico. Dentro de TCP/IP, IP asume el direcconamiento logico de redes y nodos. Los paquetes de datos solo llegan a la red donde se supone que deben de estar. Los metodos para hacerlo son network classes, subnetting y CIDR.            |
+| Routing              | IP                | Para cada paquete de datos, el siguiente nodo se determina de camino desde el emisor hasta ek receptor. De esta menera, un paquete de datos se enruta a su receptor, incluso si el remitente desconce su ubicacion .            |
+| Error & Control Flow | TCP               | El remitente y el receptor estan frecuentemente en contacto entre si a traves de una conexion virtual. Por lo tanto, los mensajes de control se envian continuamente para verificar si la conexion aun esta establecida.             |
+| Application Support  | TCP               | Los puertos TCP y UDP forman una abstraccion de software para distinguir aplicaciones especificas y sus enlaces de comunicacion.              |
+| Name Resolution      | TCP               | DNS proporciona la resolucion de nombre a traves de nombres de dominios totalmente certificados (FQDN) en direcciones IP, lo que nos permite llegar al host deseado con el nombre especificado en internet.             |
