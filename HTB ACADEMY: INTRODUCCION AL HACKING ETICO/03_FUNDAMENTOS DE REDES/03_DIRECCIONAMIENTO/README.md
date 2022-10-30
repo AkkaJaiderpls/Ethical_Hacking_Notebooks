@@ -473,3 +473,256 @@ La siguiente parte identifica que tan grande puede ser cada subred pero dividien
 Al recordad las potencias de dos a ocho, puede convertirse en un calculo instantaneo. Sin embargo, si se olvida, puede ser mas rapido recordad dividir 256 por la mtad del numero de veces del resto.
 
 La parte complcada de esto es obtener el rango real de direcciones IP porque 0 es un numero y no es nulo en la red. Asi que en nuestro /25 con 128 direcciones IP el primer rango es 192.168.1.0-127. La primera direccion es la red y la ultima es la direccion de transmision, lo que significa que el espacio IP utilizable se convertiria en 192.168.1.1-126. Si nuestra direccion IP cae por encima de 128, entonces el USABLE IP SPACE seria 192.168.129-254(128 IPS es la red y 255 el broadcast).
+
+<br>
+
+# DIRECCIONES MAC #
+
+<br>
+
+Cada host en una red tiene su propio Media Acces Control (MAC) representada en hexadecimal. MAC es la direccion fisica para nuestras interfaces de red. Hay varios estandares para la direccion MAC.
+
+<br>
+
+    * Ethernet (IEEE 802.3)
+
+    * Bluetooth (IEEE 802.15)
+
+    * WiFi (IEEE 802.11)
+
+<br>
+
+Esto se debe a que el MAC address aborda la conexion fisica (tarjetas de red, bluetooth o adpatador WLAN) de un host. Cada tarjeta de red tiene su direccion MAC individual, que se configura una vez en el lado del hardware del fabricante pero siempre se puede cambiar, al menos temporalmente.
+
+Echemos un vistazo a un ejemplo de una direccion MAC de este tipo:
+
+DIRECCION MAC:
+
+<br>
+
+    * DE:AD:BE:EF:13:37
+
+    * DE-AD-BE-EF-13-37
+
+    * DEAD.BEEF.1337
+
+<br>
+
+| REPRESENTACION | 1ER OCTETO | 2DO OCTETO | 3ER OCTETO | 4TO OCTETO | 5TO OCTETO | SEXTO OCTETO |
+| -------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------------ |
+| BINARIO        | 1101 1110  | 1010 1101  | 1011 1110  | 1110 1111  | 0001 0011  | 0011 0111    |
+| HEXADECIMAL      | DE         | AD         | BE         | EF         | 13         | 37           |
+
+<br>
+
+Cuando se entrega un paquete IP, se debe direccionar en capa 2 a la direccion fisica del host de destino o al ROUTER/NAT, que es el responsable del enrutamiento. Cada paquete tiene una direccion de envio y una direccion de destino.
+
+La primera mitad (3 bytes / 24 bit) es el llamado Organization Unique Identifier (OUI) definida por el Institute of Electrical and Electronics Engineers (IEEE) para los respectivos fabricantes.
+
+<br>
+
+| REPRESENTACION | 1ER OCTETO | 2DO OCTETO | 3ER OCTETO | 4TO OCTETO | 5TO OCTETO | SEXTO OCTETO |
+| -------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------------ |
+| BINARIO        | 1101 1110  | 1010 1101  | 1011 1110  | 1110 1111  | 0001 0011  | 0011 0111    |
+| HEXADECIMAL      | DE         | AD         | BE         | EF         | 13         | 37           |
+
+<br>
+
+La ultima mitad de la direccion MAC se llama Individual Addres Part o Network Interface Controller (NIC), que asignan los fabricantes. El fabricante establece esta secuencia de bits solo una vez, y por lo tanto, garantiza que la direccion completa sea univoca.
+
+<br>
+
+| REPRESENTACION | 1ER OCTETO | 2DO OCTETO | 3ER OCTETO | 4TO OCTETO | 5TO OCTETO | SEXTO OCTETO |
+| -------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------------ |
+| BINARIO        | 1101 1110  | 1010 1101  | 1011 1110  | 1110 1111  | 0001 0011  | 0011 0111    |
+| HEXADECIMAL      | DE         | AD         | BE         | EF         | 13         | 37           |
+
+<br>
+
+Si un host con la direccion IP de destino se encuentra en la misma subred, la entrega se realiza directamente a la direccion fisica de la computadora de destino, Sin embargo, si este host pertenece a una subred diferente, la trama de Ethernet se dirige al MAC ADDRESS del router responsable (default gateway). Si la direccion de destino de la trama ETHERNET coincide con la propia capa 2, el enrutador enviara el marco a las capas superiores. Address Resolution Protocol (ARP) se utiliza en IPv4 para determinar las direcciones MAC asociadas con las direcciones IP.
+
+Al igual que con las direcciones IPv4, tambien existen ciertas areas reservadas para la direccion MAC. Estos incluyen, por ejemplo, el rango local para el MAC.
+
+<br>
+
+| ALCANCE LOCAL      |
+| ------------------ |
+| O 2:00:00:00:00:00 |
+| O 6:00:00:00:00:00 |
+| O A:00:00:00:00:00 |
+| O E:00:00:00:00:00 |
+
+<br>
+
+Ademas, los dos ultimos bits del primer octeto pueden desempeñar otro papel esencial. El ultimo bit puede tener dos estados, 0 o 1 como ya lo sabemos. El ultimo bit identificar la direccion MAC como Unicast(0) o Multicast(1). Con unicast, significa que el paquete enviado llegara solo a un host especifico.
+
+<br>
+
+UNIDIFUSION DE MAC:
+
+| REPRESENTACION | 1ER OCTETO | 2DO OCTETO | 3ER OCTETO | 4TO OCTETO | 5TO OCTETO | SEXTO OCTETO |
+| -------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------------ |
+| BINARIO        | 1101 1110  | 1010 1101  | 1011 1110  | 1110 1111  | 0001 0011  | 0011 0111    |
+| HEXADECIMAL      | DE         | AD         | BE         | EF         | 13         | 37           |
+
+<br>
+
+Con multicast, el paquete se envia solo una vez a todos los hosts de la red local, que luego deciden si aceptan o no el paquete en funcion de su configuracion. Los multicast address son igual una direccion unica, al igual que la direccion broadcast, que tiene valor de ocho octetos. Broadcast es una red que representa una llamada transmitida, donde los paquetes de datos sse transmiten simultaneamente desde un punto a todos los miembtos de una red. se utiliza principalmente si aun no se conoce la direccon de recepcion del paquete.
+
+<br>
+
+MULTIDIFUSION MACS
+
+| REPRESENTACION | 1ER OCTETO | 2DO OCTETO | 3ER OCTETO | 4TO OCTETO | 5TO OCTETO | SEXTO OCTETO |
+| -------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------------ |
+| BINARIO        | 0000 0001  | 0000 0000  | 0101 1110  | 1110 1111  | 0001 0011  | 0011 0111    |
+| HEXADECIMAL      | FF         | FF         | FF         | FF         | FF         | FF           |
+
+<br>
+
+El penultimo bit del primer octeto identifica si se trata de un global OUI, definido por el IEEE o una direccion MAC locally administred.
+
+<br>
+
+GLOBAL SI
+
+| REPRESENTACION | 1ER OCTETO | 2DO OCTETO | 3ER OCTETO | 4TO OCTETO | 5TO OCTETO | SEXTO OCTETO |
+| -------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------------ |
+| BINARIO        | 1101 1100  | 1010 1101  | 1011 1110  | 1110 1111  | 0001 0011  | 0011 0111    |
+| HEXADECIMAL      | DC         | AD         | BE         | EF         | 13         | 37           |
+
+<br>
+
+ADMINISTRADO LOCALMENTE
+
+| REPRESENTACION | 1ER OCTETO | 2DO OCTETO | 3ER OCTETO | 4TO OCTETO | 5TO OCTETO | SEXTO OCTETO |
+| -------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------------ |
+| BINARIO        | 1101 1110  | 1010 1101  | 1011 1110  | 1110 1111  | 0001 0011  | 0011 0111    |
+| HEXADECIMAL      | DE         | AD         | BE         | EF         | 13         | 37           |
+
+<br>
+
+# IPv6 Addresses #
+
+<br>
+
+Es el sucesor de IPv4. A diferencia de IPv4 la direccion de IPv6 es de 128, un poco latfo a los prefix que identifican las partes del host y de la red. La IANA es responsable de asignar direcciones IPv4 e IPv6 y sus partes de red asociadas. A largo plazo, se espera que IPv6 reemplace completamente a IPv4, que todavia se usa predominantemente en internet, sin embargo IPv4 e IPv6 pueden estar disponibles simultaneamente.
+
+IPv6 sigue consistentemente el principio end-to-end y proporciona direcciones IP de acceso publico para cualquier dispositivo sin necesidad de NAT. En consecuencia, una interfaz puede tener varias direcciones IPv6 y existen direcciones IPv6 especiales a las que se le asigna varias interfaces.
+
+<br>
+
+IPv6 es un protocolo con muchas novedades, que ademas tiene muchas otras ventajas frente a IPv4:
+
+<br>
+
+    * Espacio de direcciones mas grandes
+
+    * Autoconfiguracion de direcciones (SLAAC)
+
+    * Multiples direcciones IPv6 por interfaz
+
+    * Enrutamiento mas rapido
+
+    * Cifrado de extremo a extremo (IPsec)
+
+    * Paquete de datos de hasta 4 GByte
+
+<br>
+
+| CARACTERISTICAS           | IPv4               | IPv6                         |
+| ------------------------- | ------------------ | ---------------------------- |
+| Longitud de Bits          | 32 bits            | 128 bits                     |
+| Capa OSI                  | Capa de Red        | Capa de Red                  |
+| Rango de Direccionamiento | ~4.3 mil trillones | ~340 undecillones            |
+| Representacion            | Binario            | Hexadecimal                  |
+| Notacion de Prefijo       | 10.10.10.0/24      | fe80::dd80:b1a9:6687:2d3b/64 |
+| Direccionamiento Dinamico | DHCP               | SLAAC/DHCPv6                 |
+| IPsec de                  | Opcional           | Obligatorio                  |
+
+<br>
+
+Hay cuatro tipos de diferentes direcciones IPv6:
+
+<br>
+
+| TIPO | DESCRIPCION |
+| ---- | ----------- |
+| UNICAST | Direcciones para una unica interfaz |
+| ANYCAST | Direcciones para multiples interfaces, donde solo una de ellas recibe el paquete
+| MULTICAST | Direcciones para multiples interfaces, donde todas reciben el mismo paquete
+| BROADCAST | No existen y se realiza con direcciones multicast.
+
+<br>
+
+# SISTEMA HEXADECIMAL #
+
+<br>
+
+El sistema hexadecimal se utiliza para hacer que la representacion binaria sea mas legible y comprendible. Solo podemos mostrar 10 (0-9) estados con el decimal y 2 (0/1) con el sistema binario usando un solo caracter. A diferencia del sistema binario y decimal, podemos usar el sistema hexadecimal para mostrar 16 (0-F) estados con un solo caracter.
+
+| DECIMAL | HEXADECIMAL | BINARIO |
+| ------- | ----------- | ------- |
+| 1       | 1           | 0001    |
+| 2       | 2           | 0010    |
+| 3       | 3           | 0011    |
+| 4       | 4           | 0100    |
+| 5       | 5           | 0101    |
+| 6       | 6           | 0110    |
+| 7       | 7           | 0111    |
+| 8       | 8           | 1000    |
+| 9       | 9           | 1001    |
+| 10      | A           | 1010    |
+| 11      | B           | 1011    |
+| 12      | C           | 1100    |
+| 13      | D           | 1101    |
+| 14      | E           | 1110    |
+| 15      | F           | 1111    |
+
+<br>
+
+Veamos un ejemplo con un IPv4, como la direccion IPv4 (192.168.12.160) se veria en representacion hexadecimal.
+
+<br>
+
+| REPRESENTACION | 1ER OCTETO | 2DO OCTETO | 3ER OCTETO | 4TO OCTETO |
+| -------------- | ---------- | ---------- | ---------- | ---------- |
+| Binario | 1100 0000 | 1010 1000 | 0000 11000 | 1010 0000 |
+| Hexadecimal | C0 | A8 | 0C | A0 |
+| Decimal | 192 | 168 | 12 | 160 |
+
+<br>
+
+Por su longitud, la direccion de un IPv6 esta representada en notacion hexadecimal. Por lo tanto, los 128 bits estan dividios en 8 bloques de 16 bits (o 4 Hexadecimales). Los 4 numeros hexadecimales estan agrupados y separados por dos puntos (:) en lugar de un simple punto (.) como en IPv4. Para simplificar la notacion, dejamos de lado al menos 4 ceros en los bloques y los representamos con dos puntos (::).
+
+Una direccion IPv6 puede verse asi:
+
+<br>
+
+    * IPv6 completo: fe80:0000:0000:0000:dd80:b1a9:6687:2d3b/64
+
+    * IPv4 corto: fe80::dd80:b1a9:6687:2d3b/64
+
+<br>
+
+Una direccion IPv6 consta de dos partes:
+
+<br>
+
+    * Network Prefix (Parte de la Red)
+
+    * Interface Identifier (tambien llamado suffix, parte del host)
+
+<br>
+
+Los prefijos de red idntifican a la red, subred o rango de direcciones. Las interfaces de red se forman a partir de las 48 bit MAC direcciones de la interfaz y se convierten en una direccion de 64 bit en el proceso. La longitud del prefijo determinado es de /64. Sin embargo, otros prefijos tipicos son /32, /48 y /56. Si queremos usar nuestras redes, obtenemos un prefijo mas corto (por ejemplo /56) que los /64 de nuestro proveedor.
+
+En RFC 5952, se definio la notacion de IPv6 antes mencionada:
+
+    * Todos los caracteres alfabeticos se escriben en minusculas.
+
+    * Todos los ceros inciales de un bloque siempre se omiten
+
+    * Uno o mas bloques consecutivos de 4 ceros se pueden acortar con ::
+
+    * El acortamiento a dos puntos (::) solo se puede realizar comenzando desde la izquierda.
