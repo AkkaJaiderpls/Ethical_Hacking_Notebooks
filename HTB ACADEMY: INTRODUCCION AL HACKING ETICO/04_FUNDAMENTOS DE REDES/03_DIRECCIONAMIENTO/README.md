@@ -715,7 +715,7 @@ Una direccion IPv6 consta de dos partes:
 
 <br>
 
-Los prefijos de red idntifican a la red, subred o rango de direcciones. Las interfaces de red se forman a partir de las 48 bit MAC direcciones de la interfaz y se convierten en una direccion de 64 bit en el proceso. La longitud del prefijo determinado es de /64. Sin embargo, otros prefijos tipicos son /32, /48 y /56. Si queremos usar nuestras redes, obtenemos un prefijo mas corto (por ejemplo /56) que los /64 de nuestro proveedor.
+Los prefijos de red identifican a la red, subred o rango de direcciones. Las interfaces de red se forman a partir de las 48 bit MAC direcciones de la interfaz y se convierten en una direccion de 64 bit en el proceso. La longitud del prefijo determinado es de /64. Sin embargo, otros prefijos tipicos son /32, /48 y /56. Si queremos usar nuestras redes, obtenemos un prefijo mas corto (por ejemplo /56) que los /64 de nuestro proveedor.
 
 En RFC 5952, se definio la notacion de IPv6 antes mencionada:
 
