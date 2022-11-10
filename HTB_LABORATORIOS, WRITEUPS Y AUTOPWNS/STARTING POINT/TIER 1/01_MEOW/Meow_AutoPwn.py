@@ -15,7 +15,8 @@ signal.signal(signal.SIGINT, ctrl_c)
 
 # PROCESO
 def process():
-    tn = tn.read_until(b"Login: ")
+    tn = telnetlib.Telnet(host)
+    tn.read_until(b"Login: ")
     tn.write(user.encode('ascii') + b"\n")
     tn.read_until(b"Password: ")
     tn.write(password.encode("ascii") + b"\n")
