@@ -162,3 +162,45 @@ No importa que objetivo tengamos en mente, debemos decidirnos por el.
 <br>
 
 El proceso de toma de decisiones es un tema muy extenso y complicado sobre el que existen muchos estudios y discrepancia. una decision es, en terminos simples, la eleccion de una de varias opciones. Todas las decisiones de toman en funcion dela importancia de las circunstancias. Tomamos decisiones en vase a lo que esperamos para sacarle el maximo partido. Por tanto, las decisiones se toman no solo racionalmente sino tambien emocionalmente. Veamos una situacion para que sea mas sencillo.
+
+Supongamos que nuestro jefe nos ha dado un dia libre y un amigo nos ha pedido ayuda. Nos enfrentamos a elegir si queremos usar el tiempo libre para nosotros o si queremos ayudar a nuestro amigo a mudarse. Si nuestro bienestar es mas importante para nosotros decidimos ayudar en la mudanza. En cambio, si nuestros ingresos nos parecen mas importante, optaremos por dedicarnos el tiempo a nosotros.
+
+Las investigaciones en psicologia de la decision han establecido que las personas de ninguna manera se comportan exlusivamente en terminos de consideraciones de costo-beneficio. Dado que muchos modelos de racionalidad no reflejan de manera realista la toma de decisiones reales. 
+
+Veamos un ejemplo muy conocido, el llamado Problema del Tranvia.
+
+<br>
+
+## EL PROBLEMA DEL TRANVIA ##
+
+El problema del teranvia es un experimento mental que se describe a continuacion:
+
+<br>
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Trolley_Problem.svg/1920px-Trolley_Problem.svg.png)
+
+<br>
+
+"Un tren acelera sin frenos hacia un grupo de cinco trabajadores. El guardagujas podria desviar el tren a una via donde solo esta una persona. ¿Deberia sacrificar a una persona para salvar a otras cinco?
+
+Consideremos la siguiente solucion:
+
+<br>
+
+![](https://academy.hackthebox.com/storage/modules/9/TrolleyProblem.png)
+
+<br>
+
+Las lineas rojas representan cuerdas y los circulos azules representan pilares que hemos colocado, lo primero que se te ocurre seguramente es:
+
+<br>
+
+    * "Pero no se nos permite colocar pilares" o
+
+    * "Solo se nos permite presionar el interruptor".
+
+<br>
+
+Sin embargo, nadie nos ha dicho si podemos movernos o no. Ponemos nuestras limitaciones nosotros mismo. Si aprendemos a jugar con nuestros lmitrs nuestra toma de decisiones sera mucha mas facil, y sobretodo, mucho mas efectiva.
+
+Necesitamos conocer los factores y evaluar las consecuencias para tomar una decision. Cuantos mas factores conozcamos, mas precisa sera la decision que tomemos.
